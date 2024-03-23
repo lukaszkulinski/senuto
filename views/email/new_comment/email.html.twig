@@ -1,0 +1,10 @@
+{% extends 'email/base_email.html.twig' %}
+
+{% block body %}
+    <row>
+        <columns>
+            <h4 class="text-center">Hello {{ username }}!</h4>
+            <p>Someone added a comment to your post.</p>
+        </columns>
+    </row>
+{% endblock %}
